@@ -17,7 +17,7 @@ Each system includes:
 - Survived 50+ hours of automated testing
 - Case study included
 
-### ⚖️ Legal Contract Terms Extractor
+### ⚖️ Legal Contract Clause Extractor
 - Summarizes legal case data into bullet format for downstream review
 - Scope-controlled, hallucination-safe
 - Currently under multi-model evaluation
