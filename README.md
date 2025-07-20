@@ -17,7 +17,7 @@ Each system includes:
 - Survived 50+ hours of automated testing
 - Case study included
 
-### ⚖️ Legal Charge-to-Outcome Extractor
+### ⚖️ Legal Contract Terms Extractor
 - Summarizes legal case data into bullet format for downstream review
 - Scope-controlled, hallucination-safe
 - Currently under multi-model evaluation
