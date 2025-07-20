@@ -17,10 +17,10 @@ Each system includes:
 - Survived 50+ hours of automated testing
 - Case study included
 
-### ⚖️ Legal Contract Clause Extractor
-- Summarizes legal case data into bullet format for downstream review
-- Scope-controlled, hallucination-safe
-- Currently under multi-model evaluation
+### 📄 Legal Contract Clause Extractor
+- Extracts obligations, restrictions, and renewal terms from contract text
+- Bullet format with strict scope and structure
+- Version 1 public-safe prompt available; full test results pending
 
 ## Coming Soon
 
