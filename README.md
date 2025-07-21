@@ -1,66 +1,59 @@
-Here’s a polished README draft tailored to your repo: `prompt-systems-archive`.
+# SignalFrame | Prompt Systems Archive
+
+This archive contains enterprise-grade, versioned prompt systems authored by **SignalFrame** — designed for scale, precision, and hallucination control across AI model families.
+
+Each system includes:
+- Version-controlled evolution history
+- Constraint design rationale
+- Multi-round, multi-model QA test records
+- Human red team adversarial challenge status (if applicable)
+- Output samples and edge-case notes
+- Public-safe prompt version for open deployment
 
 ---
 
-# 🧠 SignalFrame Prompt Systems Archive
+## 📄 Legal Contract Clause Extractor
 
-**Author:** SignalFrame
-**Mission:** Architecting unbreakable prompts for high-stakes, multi-model AI deployments.
+**Purpose:**  
+Extracts *key contractual obligations, restrictions,* and *renewal terms* from legal and policy documents. Prioritizes semantic accuracy and strict scope compliance under legal review standards.
 
----
+**Highlights:**
+- Version 2.7 passed all hallucination, format, and ambiguity QA tests across GPT-4o, Claude 3.5, Gemini 1.5 Pro, GPT-3.5
+- Survived human red team testing with only one soft hallucination in v2.2 (fully patched in final)
+- Includes rule prioritization logic, formatting constraints, execution bias protocols
+- Final version now under extended testing phase
 
-## 📜 Purpose
-
-This archive showcases versioned prompt systems designed for hallucination control, cross-model stability, and scope-constrained information extraction. Each prompt has been rigorously tested against modern LLMs (e.g., GPT-4o, Claude 3.5, Gemini 1.5 Pro, GPT-3.5) and passed multi-round adversarial QA—including manual red-team trials.
-
----
-
-## 📂 Structure
-
-* `case-study-1_emr-triage-extractor/`
-  High-reliability template for extracting vitals, symptoms, and risk factors from nurse triage notes.
-  Designed for EMR integration in clinical workflows.
-
-* `case-study-2_legal-contract-extractor/`
-  Format-heavy prompt for extracting obligations, restrictions, and renewal terms from policy and contract text.
-  Tuned for legal hallucination sensitivity and ambiguity filtering.
-
-Each case study folder includes:
-
-* ✅ Final versioned prompt
-* 📋 QA summary
-* 🧪 Output samples across models
-* 🧠 Design rationale and version notes
+[🧠 Read the full Legal Case Study →](legal-contract-extractor/CaseStudy.md)  
+[📜 See the final public-safe prompt →](legal-contract-extractor/LegalPrompt_v2.7.txt)
 
 ---
 
-## 🔒 Design Principles
+## 🏥 EMR Nurse Triage Summary Extractor
 
-* **No hallucinations permitted.**
-* **Scope ≠ Summary.** Extraction is bound strictly to input content.
-* **Failure ≠ Incompletion.** Returning nothing is acceptable—and expected—if conditions are unmet.
-* **Cross-model compliance.** Prompts are optimized to survive architecture differences without drift.
-* **Version discipline.** Each system is traceable through its development lifecycle.
+**Purpose:**  
+Summarizes triage notes into structured medical summaries for EMR integration. Outputs include patient name, birthday, chief complaint, symptom onset, nurse observations, vitals, risk factors.
 
----
+**Highlights:**
+- Survived over 60 hours of adversarial stress testing
+- Outputs aligned across 7 top-performing models
+- Hallucination-free across known edge cases
+- Currently under final audit for deployment in HealthTech prototype systems
 
-## 🚧 In Development
-
-Upcoming releases will include:
-
-* Advanced scoring rubrics for prompt evaluation
-* Additional extractors (e.g., medical discharge, compliance filters)
-* Python + API orchestration workflows
-* A reference library of reusable prompt components
+[🧠 Read the full EMR Case Study →](emr-nurse-triage-summary/CaseStudy.md)  
+[📜 See the final public-safe prompt →](emr-nurse-triage-summary/EMRPrompt_Final.txt)
 
 ---
 
-## 📎 Attribution
+## 🧪 Coming Soon
 
-These systems were authored by SignalFrame, guided by an AI-native protocol for high-precision prompt engineering.
-This repository serves as a public ledger of transparent, replicable AI instructions—built to raise the bar.
+- Prompt scoring harness (Python)
+- Visual layout testing systems
+- Failure-mode pattern library
+- API simulation testing
 
 ---
 
-Would you like this staged in a file and pushed into each case folder as well, or just in the main `README.md` at root level?
+**About SignalFrame**  
+SignalFrame builds unbreakable prompt systems that contain ambiguity, enforce clarity, and scale across foundation models. Every system is structured for production-level QA.
 
+*This repo is updated live as test results conclude and new systems are cleared for public review.*
