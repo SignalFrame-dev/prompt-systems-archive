@@ -1,14 +1,20 @@
 # SignalFrame | Prompt Systems Archive
 
+## 📄 Legal Contract Clause Extractor (v2.7)
+## 🏥 EMR Nurse Triage Summary Extractor (v1.0)
+
+## Systems  
+- [📄 Legal Contract Clause Extractor](#legal-contract-clause-extractor)  
+- [🏥 EMR Nurse Triage Summary Extractor](#emr-nurse-triage-summary-extractor)
+
 This archive contains enterprise-grade, versioned prompt systems authored by **SignalFrame** — designed for scale, precision, and hallucination control across AI model families.
 
 Each system includes:
-- Version-controlled evolution history
 - Constraint design rationale
 - Multi-round, multi-model QA test records
 - Human red team adversarial challenge status (if applicable)
 - Output samples and edge-case notes
-- Public-safe prompt version for open deployment
+- Public-safe prompt version for review and reference
 
 ---
 
@@ -23,8 +29,10 @@ Extracts *key contractual obligations, restrictions,* and *renewal terms* from l
 - Prompt design includes rule prioritization logic, formatting constraints, and execution bias protocols (redacted in public-safe version; available by request for enterprise review or research collaboration)
 - Final version now under extended testing phase
 
-[🧠 Read the full Legal Case Study →](coming soon)  
-[📜 See the final public-safe prompt →](coming soon)
+---
+
+- Case study publication pending
+- Final public-safe prompt will be published after extended test phase
 
 ---
 
@@ -35,7 +43,7 @@ Summarizes triage notes into structured medical summaries for EMR integration. O
 
 **Highlights:**
 - Survived over 60 hours of adversarial stress testing
-- Outputs aligned across 7 top-performing models
+- Consistently compliant across GPT-4o, Claude 3.5, Gemini 1.5 Pro, GPT-3.5, Perplexity, Mistral, and Meta AI during 60+ hours of testing
 - Hallucination-free across known edge cases
 - Currently under final audit for deployment in HealthTech prototype systems
 
@@ -56,7 +64,7 @@ Summarizes triage notes into structured medical summaries for EMR integration. O
 **About SignalFrame**  
 SignalFrame builds unbreakable prompt systems that contain ambiguity, enforce clarity, and scale across foundation models. Every system is structured for production-level QA.
 
-*This repo is updated live as test results conclude and new systems are cleared for public review.*
+*This archive is continuously updated as systems complete QA and are cleared for public review.*
 
 ### 📜 Usage and Permissions
 All content © SignalFrame. Public-safe prompt versions may be used for reference or educational purposes with attribution. Redistribution, modification, or commercial use of full prompt systems requires written consent.
