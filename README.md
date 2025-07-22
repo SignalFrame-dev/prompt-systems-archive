@@ -1,13 +1,10 @@
 # SignalFrame | Prompt Systems Archive
 
-## 📄 Legal Contract Clause Extractor (v2.7)
-## 🏥 EMR Nurse Triage Summary Extractor (v1.0)
-
-## Systems  
-- [📄 Legal Contract Clause Extractor](#legal-contract-clause-extractor)  
-- [🏥 EMR Nurse Triage Summary Extractor](#emr-nurse-triage-summary-extractor)
-
 This archive contains enterprise-grade, versioned prompt systems authored by **SignalFrame** — designed for scale, precision, and hallucination control across AI model families.
+
+**Current Systems:**
+- 📄 Legal Contract Clause Extractor (v2.7)
+- 🏥 EMR Nurse Triage Summary Extractor (v1.0)
 
 Each system includes:
 - Constraint design rationale
