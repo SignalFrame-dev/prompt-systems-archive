@@ -1,3 +1,7 @@
+⚠️ Status: Archive under internal audit. Public-safe contents frozen as of July 2025.
+Further updates pending QA review and education milestone completion.
+
+
 # SignalFrame | Prompt Systems Archive
 
 This archive contains enterprise-grade, versioned prompt systems authored by **SignalFrame** — designed for scale, precision, and hallucination control across AI model families.
