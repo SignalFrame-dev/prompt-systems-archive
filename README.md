@@ -47,8 +47,8 @@ Summarizes triage notes into structured medical summaries for EMR integration. O
 - Hallucination-free across known edge cases
 - Currently under final audit for deployment in HealthTech prototype systems
 
-[🧠 Read the full EMR Case Study →](emr-nurse-triage-summary/CaseStudy.md)  
-[📜 See the final public-safe prompt →](emr-nurse-triage-summary/EMRPrompt_Final.txt)
+- Case study publication pending
+- Final public-safe prompt will be published after extended test phase
 
 ---
 
