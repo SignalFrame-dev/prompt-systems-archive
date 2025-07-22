@@ -20,11 +20,11 @@ Extracts *key contractual obligations, restrictions,* and *renewal terms* from l
 **Highlights:**
 - Version 2.7 passed all hallucination, format, and ambiguity QA tests across GPT-4o, Claude 3.5, Gemini 1.5 Pro, GPT-3.5
 - Survived human red team testing with only one soft hallucination in v2.2 (fully patched in final)
-- Includes rule prioritization logic, formatting constraints, execution bias protocols
+- Prompt design includes rule prioritization logic, formatting constraints, and execution bias protocols (redacted in public-safe version; available by request for enterprise review or research collaboration)
 - Final version now under extended testing phase
 
-[🧠 Read the full Legal Case Study →](legal-contract-extractor/CaseStudy.md)  
-[📜 See the final public-safe prompt →](legal-contract-extractor/LegalPrompt_v2.7.txt)
+[🧠 Read the full Legal Case Study →](coming soon)  
+[📜 See the final public-safe prompt →](coming soon)
 
 ---
 
@@ -57,3 +57,7 @@ Summarizes triage notes into structured medical summaries for EMR integration. O
 SignalFrame builds unbreakable prompt systems that contain ambiguity, enforce clarity, and scale across foundation models. Every system is structured for production-level QA.
 
 *This repo is updated live as test results conclude and new systems are cleared for public review.*
+
+### 📜 Usage and Permissions
+All content © SignalFrame. Public-safe prompt versions may be used for reference or educational purposes with attribution. Redistribution, modification, or commercial use of full prompt systems requires written consent.
+
