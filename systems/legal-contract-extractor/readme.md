@@ -1,30 +1,34 @@
-# Legal Contract Extractor
+# Legal Contract Clause Extractor
 
-This system-level prompt extracts only the **key contractual obligations**, **restrictions**, and **renewal terms** from legal policy or contract text. It is engineered for strict scope control, ambiguity filtering, and multi-model stability.
+This system-level prompt extracts only the **contractual obligations**, **restrictions**, and **renewal terms** from legal, policy, or contract-like input text. It is engineered for strict scope control, ambiguity filtering, and multi-model compliance.
 
-## 🔍 What it Does
-- Filters out boilerplate, summaries, party names, and non-binding language
-- Extracts only the core actionable items explicitly stated in the text
-- Complies with strict formatting rules for structured downstream use
+## 🔍 What It Does
+- Filters out boilerplate, summaries, party identifiers, and non-binding language  
+- Extracts only actionable items explicitly stated in the input  
+- Enforces structured format for downstream automation or review
 
 ## 🧠 Design Principles
-- Brutal constraint enforcement
-- Clear rule hierarchy for edge case handling
-- Permission-based null output: returns “No items to extract” when needed
-- Model-agnostic: tested across GPT-4o, Claude 3.5, Gemini 1.5 Pro, GPT-3.5
+- Constraint-layered design with refusal fallback logic  
+- Explicit scope boundaries and no-inference guardrails  
+- Permission-based null output: omits sections when content is absent  
+- Model-agnostic structure tested across major systems
 
 ## 📄 Files Included
-- `prompt-v1.0.md`: The extraction system prompt (currently v2.7)
-- `case-study.md`: Step-by-step case study with rationale and sample inputs
-- `human-context.md`: Author notes and design framing for future collaborators
+- `prompt-v2.7.md` — current public-safe system prompt  
+- `case-study.md` — case structure and sample scenario  
+- `human-context.md` — authorship rationale and IP framing
 
 ## 🚧 Status
-- ✅ Final version (2.7) uploaded
-- 🧪 Extended QA testing in progress (model and human red team)
+- ✅ Version 2.7 committed  
+- 🧪 Extended QA testing in progress (SignalFrame manual + model red team)
 
-## 🏷 Version
+## 🏷 Version Info
 **Current:** v2.7  
 **Tested Models:** GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, GPT-3.5 (3o)
+
+---
+
+*Note: This public version omits internal rule hierarchy, fallback handling, and full model-specific execution logic.*
 
 ---
 
