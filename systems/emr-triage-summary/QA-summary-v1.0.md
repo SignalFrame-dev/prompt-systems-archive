@@ -68,5 +68,5 @@ The system was evaluated on its ability to:
 
 ## 🏁 Verdict
 
-**Status:** ✅ v1.0 passed manual QA across 7 models.  
+**Status:** ✅ QA passed — EMR Triage Summary v2.0 performed consistently across 3 core models (GPT‑4o, Claude 3.5, Gemini 1.5) in structured testing. Further edge-case and production validation pending.
 **Next step:** Integrate into HealthTech prototype system and log results under live clinical simulations.
