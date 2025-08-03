@@ -13,6 +13,14 @@ This prompt extracts key clinical information from triage nurse notes into a bul
 
 ---
 
+## Structure Overview
+
+This version uses a modular prompt format broken into three sections: task, output format, and constraints.  
+This structure reduces ambiguity and improves cross-model compliance by isolating instruction layers.  
+Label ordering, omission logic, and tone enforcement are explicitly handled.
+
+---
+
 ## Prompt Evolution Notes
 
 - Version 1 contained inline formatting instructions and vague scope constraints  
