@@ -26,6 +26,16 @@ This system-level prompt extracts only the **contractual obligations**, **restri
 **Current:** v2.7  
 **Tested Models:** GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, GPT-3.5 (3o)
 
+## Versioning Notes
+
+- **Legal Contract Clause Extractor — v2.9_Locked** is the current baseline.  
+  - This version has passed compliance testing across multiple models (GPT-4o, Claude 3.5, Perplexity, Gemini 2.5 Flash).  
+  - It is considered the hardened prompt for ongoing public reference.
+
+- Earlier versions (e.g., v2.7) remain archived for historical transparency.  
+  - These represent pre-lock iterations and may not reflect the current tested standard.  
+  - They are kept in the repository to preserve version history, not for active use.
+
 ---
 
 *Note: This public version omits internal rule hierarchy, fallback handling, and full model-specific execution logic.*
