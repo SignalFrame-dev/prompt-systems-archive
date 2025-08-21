@@ -1,48 +1,43 @@
 # Legal Contract Clause Extractor
 
-This system-level prompt extracts only the **contractual obligations**, **restrictions**, and **renewal terms** from legal, policy, or contract-like input text.  
-It is engineered for strict scope control, ambiguity filtering, and multi-model compliance.
-
----
-
 ## 🔍 What It Does
-- Extracts only actionable items explicitly stated in the input  
-- Filters out summaries, party identifiers, and non-binding language  
-- Enforces structured, reproducible format for downstream automation or review  
+- Extracts three clause types from contract text:  
+  - **Obligations**  
+  - **Restrictions**  
+  - **Renewal/Termination**  
+- Reproduces each clause **verbatim**, preserving full sentence boundaries.  
+- Outputs in a strict, labeled format for legal review.  
 
 ---
 
 ## 🧠 Design Principles
-- Constraint-layered design with refusal fallback logic  
-- Explicit scope boundaries and no-inference guardrails  
-- Null-output allowed where sections are absent  
-- Model-agnostic structure validated across multiple LLMs  
+- Enforces **scope-only extraction** (no unrelated clauses).  
+- Requires **word-for-word reproduction** — no paraphrasing or commentary.  
+- Omits labels entirely if a clause type is absent.  
 
 ---
 
 ## 📄 Files Included
-- `legal-contract-extractor-prompt-v2.9_Locked.md` — current hardened baseline prompt  
-- `case-study.md` — applied case study and scenario notes  
-- `human-context.md` — authorship rationale and IP framing  
-- `tests/` — model compliance logs  
-- `archive/` — previous versions (e.g., v2.7) kept for transparency  
+- `legal-contract-extractor-v2.9_Locked.md` — current baseline prompt  
+- `case-study.md` — applied contract scenarios and notes  
+- `human-context.md` — authorship rationale and design context  
+- `tests/` — compliance logs  
+- `archive/` — earlier versions and QA summaries  
 
 ---
 
 ## 🏷 Version Info
 - **Current baseline:** v2.9_Locked (2025-07-28)  
-- **Tested models:** GPT-4o, Claude 3.5, Perplexity, Gemini 2.5 Flash  
-- **Result:** All models produced identical, fully compliant outputs on benchmark input  
+- **Tested models:** GPT-4o, Claude 3.5, Gemini 2.5 Flash, Perplexity  
+- **Result:** Passed structured compliance tests (verbatim + format + scope)  
 
 ---
 
 ## Versioning Notes
-- **Locked versions** (e.g., `v2.9_Locked`) represent hardened, tested baselines safe for public use.  
-- **Earlier versions** (e.g., v2.7) are archived for historical transparency but are not intended for production use.  
-
----
-
-*Note: Public release omits internal fallback handling and full model-specific execution logic.*  
+- **Locked versions** = tested baselines, safe for reference.  
+- **Earlier versions** are archived for transparency but not intended for active use.  
+- **v2.7 specifically failed**: models drifted on paraphrasing, truncation, and commentary. This version is preserved in `/archive` as a record of failed compliance.  
+- **v2.9_Locked** incorporated fixes and passed compliance across all tested models.  
 
 ---
 
