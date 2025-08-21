@@ -24,3 +24,5 @@
 ## Versioning Notes
 - **Locked versions** represent tested baselines safe for reference.  
 - **Earlier versions** are archived for transparency but not intended for active use.
+- Archived QA summaries (e.g., v1.0) are preserved in `/archive` for transparency.
+
