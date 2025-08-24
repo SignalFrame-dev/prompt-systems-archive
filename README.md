@@ -9,9 +9,9 @@ Each system is maintained with version history, test logs, and case study docume
 
 ### 🏥 EMR Nurse Triage Summary
 - **Purpose:** Extract structured clinical data from triage notes for physician review in EMR systems.  
-- **Baseline:** v1.4_Locked  
-- **Testing:** Passed compliance across GPT-4o, Claude 3.5, Gemini 1.5 Pro, Perplexity, Mistral, and Meta AI after 50+ hours of stress testing.  
-- **Failure history:** v1.0 archived — partial paraphrasing and over-labeling observed, corrected in later versions.  
+- **Baseline:** v3.62_Locked (2025-08-23)  
+- **Testing:** Passed compliance across GPT-4o, Claude 3.5, Gemini 2.5 Flash, and Perplexity. Verified med-effect edge cases (captured when present, omitted when absent).  
+- **Failure history:** v1.0 archived — paraphrasing and over-labeling observed. v1.4_Locked corrected these issues. v3.6 failed on GPT-4o (missing Nurse observations) and Gemini (dropped med effect). v3.61 fixed GPT-4o; v3.62 fixed Gemini.  
 - **Folder:** [`systems/emr-triage-summary`](systems/emr-triage-summary)  
 
 ---
