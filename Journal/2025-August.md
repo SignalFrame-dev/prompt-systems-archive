@@ -18,3 +18,15 @@ August Focus Areas:
 
 End-of-Month Goal:
 Functional Python + API harness that scores, audits, and routes model outputs across systems—built entirely from scratch by a non-programmer, using only natural language, logic, and version control.
+
+---
+
+### 2025-08-28
+- Created `docs/legal-v2.9-lock` branch; scaffold file added; Draft PR opened
+- Created `chore/pr-template` branch; merged repo-wide PR template into `main`
+- Deferred implementation of `to_decimal` skeleton; placeholder committed in `normalize_percent.py` (branch: `feat/utils-to_decimal`)
+- Documented planned changes for accommodations v11 in `CHANGELOG_accommodations.md`
+- NEXT: Implement `to_decimal` skeleton + test plan; open Draft PR to confirm PR template auto-fills
+
+### 2025-08-29
+- NEXT: Implement logic in to_decimal(x) and convert test plan into real asserts
