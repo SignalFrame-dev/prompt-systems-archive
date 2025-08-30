@@ -28,4 +28,6 @@ Functional Python + API harness that scores, audits, and routes model outputs ac
 - Documented planned changes for accommodations v11 in `CHANGELOG_accommodations.md`
 - NEXT: Implement `to_decimal` skeleton + test plan; open Draft PR to confirm PR template auto-fills
 
+### 2025-08-29
+- NEXT: Implement logic in to_decimal(x) and convert test plan into real asserts
 
