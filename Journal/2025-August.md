@@ -30,3 +30,9 @@ Functional Python + API harness that scores, audits, and routes model outputs ac
 
 ### 2025-08-29
 - NEXT: Implement logic in to_decimal(x) and convert test plan into real asserts
+
+### 2025-08-31
+- Commit D: implemented numeric + string percent handling in to_decimal
+- Commit E: added rejection tests (booleans, negatives, non-numeric strings)
+- NEXT: Commit F — finalize to_decimal (docstring polish, cleanup) and update PR DoD
+
