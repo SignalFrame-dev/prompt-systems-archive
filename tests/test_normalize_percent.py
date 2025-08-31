@@ -10,3 +10,22 @@ def test_percent_inputs():
     assert to_decimal("15") == 0.15
     assert to_decimal("15%") == 0.15
     assert to_decimal("0.15") == 0.15
+
+def test_rejections():
+    try:
+        to_decimal(True)
+        assert False, "Expected ValueError for True"
+    except ValueError:
+        pass
+
+    try:
+        to_decimal(-1)
+        assert False, "Expected ValueError for -1"
+    except ValueError:
+        pass
+
+    try:
+        to_decimal("abc")
+        assert False, "Expected ValueError for 'abc'"
+    except ValueError:
+        pass
