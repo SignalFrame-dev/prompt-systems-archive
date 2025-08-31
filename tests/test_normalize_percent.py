@@ -4,3 +4,9 @@ def test_pass_through_range():
     assert to_decimal(0.15) == 0.15
     assert to_decimal(1) == 1.0
     assert to_decimal(0) == 0.0
+
+def test_percent_inputs():
+    assert to_decimal(15) == 0.15
+    assert to_decimal("15") == 0.15
+    assert to_decimal("15%") == 0.15
+    assert to_decimal("0.15") == 0.15
