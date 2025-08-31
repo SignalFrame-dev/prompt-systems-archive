@@ -7,4 +7,20 @@ def to_decimal(x):
     - If 0 <= x <= 1: pass through (0.15 -> 0.15).
     - Reject negatives, booleans, and non-parsable strings by raising ValueError.
     """
-    raise NotImplementedError("Implement after tests are written.")
+    def to_decimal(x):
+    # Reject booleans (bool is a subclass of int in Python)
+    if isinstance(x, bool):
+        raise ValueError("Booleans not allowed")
+
+    # Handle numeric inputs
+    if isinstance(x, (int, float)):
+        if x < 0:
+            raise ValueError("Negative values not allowed")
+        if 0 <= x <= 1:
+            return float(x)
+        # placeholder: percent handling not yet implemented
+        raise NotImplementedError("Percent handling to be added")
+
+    # placeholder: string handling not yet implemented
+    raise NotImplementedError("String handling to be added")
+
