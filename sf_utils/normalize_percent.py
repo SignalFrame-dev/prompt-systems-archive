@@ -1,22 +1,25 @@
 def to_decimal(x):
-    """
-    Convert input into a decimal between 0.0 and 1.0.
+   """
+Normalize an input into a decimal in [0.0, 1.0].
 
-    Rules:
-    - If x is a bool: reject with ValueError
-    - If x is a number:
-        * < 0 → ValueError
-        * 0 <= x <= 1 → return float(x)
-        * > 1 → interpret as percent (divide by 100)
-    - If x is a string:
-        * Strip spaces
-        * If ends with %, remove the %
-        * Try to convert to float
-        * < 0 → ValueError
-        * 0 <= v <= 1 → return v
-        * > 1 → divide by 100
-    - Otherwise: ValueError
-    """
+Accepted:
+- int/float:
+  * x < 0            → ValueError
+  * 0 ≤ x ≤ 1        → float(x)
+  * x > 1            → x / 100.0   (percent)
+- str:
+  * Trims spaces; optional trailing '%' allowed
+  * Parses numeric content with float()
+  * v < 0            → ValueError
+  * 0 ≤ v ≤ 1        → v
+  * v > 1            → v / 100.0   (percent)
+
+Rejected:
+- bool (explicitly) → ValueError
+- Any other type    → ValueError
+- Empty/non-numeric strings → ValueError
+"""
+
 
     # 1. Reject booleans
     if isinstance(x, bool):
@@ -51,4 +54,5 @@ def to_decimal(x):
         return v / 100.0
 
     # 4. Unsupported types
-    raise ValueError("Unsupported type")
+    raise ValueError(f"Unsupported type: {type(x).__name__}")
+
