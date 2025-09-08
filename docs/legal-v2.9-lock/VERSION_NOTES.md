@@ -49,5 +49,7 @@
 
 ## Merge Preconditions
 - [ ] Example I/O updated to v2.9 style
-- [ ] Logs attached/linked
+- [ ] Logs attached/linked in docs
 - [ ] Docs index updated
+- [ ] PR converted from Draft
+- [ ] Branch deleted after merge
