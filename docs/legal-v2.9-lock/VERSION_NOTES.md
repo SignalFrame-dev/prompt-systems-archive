@@ -16,12 +16,18 @@
   - Updated PR DoD and merge-gate conditions 
 
 ## Rule/Constraint Deltas
-- Added:
-  - [TODO] …
-- Modified:
-  - [TODO] …
-- Removed:
-  - [TODO] …
+- Added
+  - No-Inference Rule: forbids interpretation or implication → new bullet under Scope Constraints
+  - Failure-Handling Rule: defines refusal output if fields missing → new “If you cannot extract…” section
+  - I/O Example: added to enforce bullet order and label compliance → end of prompt
+
+- Modified
+  - Constraint grouping: merged duplicative rules and rewrote for brevity → reduces drift and filler
+  - Output Format: labels and order locked → eliminates ambiguity in model responses
+
+- Removed
+  - “Use judgement as needed” → replaced by strict omission under no-inference
+  - Duplicate wording in scope and format → consolidated into single constraints
 
 ## Compliance & Testing Summary
 - Models covered: GPT-4o, Claude 3.5, Gemini 2.5 Flash
