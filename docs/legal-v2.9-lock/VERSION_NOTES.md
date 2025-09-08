@@ -40,8 +40,12 @@
   - No refusals, no hallucinations
 
 ## Regression Risks & Mitigations
-- Risk: [TODO] …
-- Mitigation: [TODO] …
+- Risk: Risk: No-inference rule may lead to omission of borderline details
+  - Mitigation: Verified edge cases in Round 5 adversarial tests; explicit examples added
+- Risk: Failure-handling may trigger unnecessary refusals
+  - Mitigation: Tested across edge cases; no false refusals observed
+- Risk: Consolidated constraints may reduce clarity
+  - Mitigation: Added I/O example and peer-reviewed wording to preserve interpretability
 
 ## Merge Preconditions
 - [ ] Example I/O updated to v2.9 style
