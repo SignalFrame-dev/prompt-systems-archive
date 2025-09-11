@@ -1,0 +1,10 @@
+Model: Gemini 2.5 Flash
+Prompt: Legal V2.9_Locked
+Input: (3-clause test contract)
+
+Results:
+- Obligations → PASS
+- Restrictions → PASS
+- Renewal terms → PASS
+
+Notes: Fully compliant. Matches GPT-4o and Claude 3.5 outputs.
