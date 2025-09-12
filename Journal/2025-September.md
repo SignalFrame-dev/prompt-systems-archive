@@ -43,3 +43,7 @@ Today stacked multiple firsts into one release arc:
 - First end-to-end milestone entry for a shipped locked version.  
 
 This was the day I closed Legal v2.9 and shipped it to main.  
+
+**Tag created:** [legal-v2.9_locked](https://github.com/SignalFrame-dev/prompt-systems-archive/releases/tag/legal-v2.9_locked)  
+This tag anchors the merge commit `legal: merge v2.9 locked prompt + notes + logs` on main.
+
