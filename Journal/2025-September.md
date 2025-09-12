@@ -29,3 +29,17 @@ Legal v2.9 is now the active locked release.
 - Update repo index/README to point to v2.9 as the current release.  
 - Open tracking issue: “Legal v3.0 — candidate deltas & test plan.”  
 - Plan Round 6 testing cycle to validate performance on new edge cases.  
+
+### Meta-Notes — 2025-09-11
+
+Today stacked multiple firsts into one release arc:  
+- First full enterprise-grade Version Notes.  
+- First locked Example I/O under enterprise rules.  
+- First time breaking out test results into separate committed artifacts.  
+- First linked test log index with methodology justification.  
+- First time driving a PR through full DoD.  
+- First squash merge.  
+- First full feature branch lifecycle completed.  
+- First end-to-end milestone entry for a shipped locked version.  
+
+This was the day I closed Legal v2.9 and shipped it to main.  
