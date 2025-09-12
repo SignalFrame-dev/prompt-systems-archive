@@ -1,0 +1,10 @@
+Model: GPT-4o
+Prompt: Legal V2.9_Locked
+Input: (3-clause test contract)
+
+Results:
+- Obligations → PASS
+- Restrictions → PASS
+- Renewal terms → PASS
+
+Notes: All labels present, format compliant, no hallucination, no paraphrasing.
