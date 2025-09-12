@@ -47,3 +47,27 @@ This was the day I closed Legal v2.9 and shipped it to main.
 **Tag created:** [legal-v2.9_locked](https://github.com/SignalFrame-dev/prompt-systems-archive/releases/tag/legal-v2.9_locked)  
 This tag anchors the merge commit `legal: merge v2.9 locked prompt + notes + logs` on main.
 
+### Reflection — Lessons from Legal v2.9
+
+Biggest struggles:
+- Writing Version Notes in enterprise tone — felt like a foreign language.  
+- Justifying compliance numbers — discomfort until Methodology was added.  
+- Structuring and linking logs — confusing at first to split files and wire links.  
+
+Medium struggles:
+- Keeping PR DoD honest and up to date.  
+- Slowing down for atomic commits.  
+
+Lower struggles:
+- Squash merge once understood.  
+- Tagging the release in GitHub.  
+- Writing milestone journal entries.  
+
+Biggest payoffs:
+- Version Notes created a professional, audit-ready artifact.  
+- Logs are now structured, linked, and defensible.  
+- Squash merge + tag gave me a permanent, clean milestone marker.  
+- Journal entry preserved the significance for future me.  
+
+Closing thought: The hardest parts were the ones with the greatest payoff. The vertical learning curve made me feel like I was failing, but the process forced me into professional standards I wouldn’t have reached otherwise.
+
