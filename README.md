@@ -15,7 +15,6 @@ Each system is maintained with version history, test logs, and case study docume
 - **Folder:** [`systems/emr-triage-summary`](systems/emr-triage-summary)  
 - **Current locked release:** [emr-v3.62_locked](https://github.com/SignalFrame-dev/prompt-systems-archive/releases/tag/emr-v3.62_locked)
 
-
 ---
 
 ### 📄 Legal Contract Clause Extractor
