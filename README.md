@@ -13,15 +13,18 @@ Each system is maintained with version history, test logs, and case study docume
 - **Testing:** Passed compliance across GPT-4o, Claude 3.5, Gemini 2.5 Flash, and Perplexity. Verified med-effect edge cases (captured when present, omitted when absent).  
 - **Failure history:** v1.0 archived — paraphrasing and over-labeling observed. v1.4_Locked corrected these issues. v3.6 failed on GPT-4o (missing Nurse observations) and Gemini (dropped med effect). v3.61 fixed GPT-4o; v3.62 fixed Gemini.  
 - **Folder:** [`systems/emr-triage-summary`](systems/emr-triage-summary)  
+- **Current locked release:** [emr-v3.62_locked](https://github.com/SignalFrame-dev/prompt-systems-archive/releases/tag/emr-v3.62_locked)
+
 
 ---
 
 ### 📄 Legal Contract Clause Extractor
 - **Purpose:** Extract obligations, restrictions, and renewal/termination clauses from contract text.  
-- **Baseline:** v2.9_Locked  
+- **Baseline:** v2.9_Locked (2025-09-11)  
 - **Testing:** Passed compliance across GPT-4o, Claude 3.5, Gemini 2.5 Flash, and Perplexity. All models produced identical, verbatim outputs.  
 - **Failure history:** v2.7 archived — failed due to paraphrasing, truncation, and Gemini commentary drift. Hardened into v2.9_Locked.  
 - **Folder:** [`systems/legal-contract-extractor`](systems/legal-contract-extractor)  
+- **Current locked release:** [legal-v2.9_locked](https://github.com/SignalFrame-dev/prompt-systems-archive/releases/tag/legal-v2.9_locked)
 
 ---
 
