@@ -1,0 +1,13 @@
+[project]
+name = "signalframe-tooling"
+version = "0.0.1"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
