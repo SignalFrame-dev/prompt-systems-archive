@@ -71,3 +71,27 @@ Biggest payoffs:
 
 Closing thought: The hardest parts were the ones with the greatest payoff. The vertical learning curve made me feel like I was failing, but the process forced me into professional standards I wouldn’t have reached otherwise.
 
+---
+
+# September 23, 2025
+
+> **Milestone:** Official start of Tooling Phase under the SignalFrame Training Calendar (SFTC)
+
+## Tooling Scaffolding + First Red Run
+
+1. Added project scaffold (`tooling/pyproject.toml`)  
+2. Added package init (`tooling/src/signalframe/__init__.py`)  
+3. Added utils stubs (`to_verbatim`, `enforce_label_order`)  
+4. Added contract tests (`tooling/tests/test_utils.py`)  
+5. Set up virtual environment and installed pytest locally  
+6. Ran tests: **all red** (`NotImplementedError`) → confirmed test harness works  
+7. Committed: `tooling/tests: confirm utils contract tests run red under pytest`  
+
+### Notes
+- First time running local Python tests with pytest.  
+- High friction: venv setup, pip, path errors, OneDrive interference.  
+- Solved path/navigation issues and executed tests correctly.  
+- Emotional load was high, but cycle completed.  
+- GitHub branching and commit discipline are beginning to “gel.”  
+
+
