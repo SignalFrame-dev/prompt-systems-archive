@@ -8,3 +8,18 @@
 - Repo health verified: clean, no open PRs or conflicts.
 - Objective: Re-entry after sustained break; establish repo situational awareness.
 - Next action (future session): merge updates from main, then prepare v11 lock review.
+
+## Session Closure — 2025-10-18
+
+**Summary:**  
+Completed squash and merge of October 2025 journal entry. Verified repo integrity and confirmed active branch states. No conflicts or pending PRs.
+
+**Branch:**  
+feat/accommodations-v11
+
+**Merge Status:**  
+Squash + merge confirmed into main. Branch retained for continued development; lock pending.
+
+**Reflection:**  
+Pushed through fatigue to re-establish workflow and repository discipline. Maintained standards after extended break.
+
